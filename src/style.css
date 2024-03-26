@@ -78,7 +78,7 @@ main {
 
 .weather-app-temperature-container {
   display: flex;
-  padding-right: 60px;
+  padding-right: 40px;
   padding-top: 15px;
 }
 
@@ -107,20 +107,27 @@ main {
   justify-content: space-around;
 }
 .weather-forecast-date {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   text-align: center;
   line-height: 20px;
   margin-bottom: 10px;
 }
-
+.weather-forecast-icon {
+  width: 78px;
+  height: 78px;
+  display: block;
+  margin: 0 auto;
+}
 .weather-forecast-temperature-min {
   opacity: 0.6;
+  font-weight: 500;
 }
 
 .weather-forecast-temperatures {
-  font-size: 13px;
+  font-size: 14px;
   color: #f2b427;
+  padding: 0 10px;
 }
 
 footer {
