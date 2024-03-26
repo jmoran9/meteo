@@ -78,6 +78,8 @@ main {
 
 .weather-app-temperature-container {
   display: flex;
+  padding-right: 60px;
+  padding-top: 15px;
 }
 
 .weather-app-icon {
